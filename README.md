@@ -1,6 +1,6 @@
 # youtube-playlist-automation
 
-This Python script automates the creation of a YouTube playlist and populates it with videos based on a user-provided search term. It utilizes the YouTube Data API to search for videos and manage playlists.
+This Python script automates the creation of a YouTube playlist and adds it with videos based on a user-provided search term. It utilizes the YouTube Data API to search for videos and manage playlists.
 
 ## Features
 
