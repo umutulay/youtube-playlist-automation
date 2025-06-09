@@ -28,7 +28,7 @@ This project requires Python and the `google-auth`, `google-auth-oauthlib`, and 
 2. Clone the repo
  `https://github.com/umutulay/youtube_auto_playlist_create_by_search.git`
 
-3. Install pyhton packages
+3. Install python packages
  `pip install -r requirements.txt`
 
 ## Usage
