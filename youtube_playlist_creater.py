@@ -21,7 +21,7 @@ def main():
     youtube = googleapiclient.discovery.build(
         api_service_name, api_version, credentials=credentials)
     
-    search_input = input("Please enter your search: "),
+    search_input = input("Please enter your search: ")
 
     # Search for 'Radiohead cover' videos
     request = youtube.search().list(
@@ -32,7 +32,8 @@ def main():
     )
     response = request.execute()
 
-    playlist_name = " ".join(search_input) + " Playlist"
+    playlist_name = search_input + " Playlist"
+
 
     create_playlist_response = youtube.playlists().insert(
         part="snippet,status",
