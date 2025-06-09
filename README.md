@@ -20,10 +20,10 @@ This project requires Python and the `google-auth`, `google-auth-oauthlib`, and 
 
 1. Google Cloud Console
 
-a. Create a project on the Google Cloud Console.
-b. Enable the YouTube Data API v3 for your project.
-c. Create OAuth 2.0 credentials for a Desktop app.
-d. Download the client secrets file (client_secrets.json) and place it in the same directory as the script.
+- Create a project on the Google Cloud Console.
+- Enable the YouTube Data API v3 for your project.
+- Create OAuth 2.0 credentials for a Desktop app.
+- Download the client secrets file (client_secrets.json) and place it in the same directory as the script.
 
 2. Clone the repo
  `https://github.com/umutulay/youtube_auto_playlist_create_by_search.git`
